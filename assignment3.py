@@ -29,6 +29,17 @@
 #           Sine of the number (in radians)
 # 3.   Displays the calculated results.
 
+import math
+
+i = float(input("Enter a number: "))
+
+s_root = math.sqrt(i)
+n_log = math.log(i)
+rad = math.sin(i)
+
+print(f"Square root of the entered number: {s_root}")  #The f before the string is used to create an f-string in Python
+print(f"Natural logarithm(log base e) of the entered number: {n_log}")  #f stands for formatted string literal.
+print(f"Sine(in radian) of the entered number: {rad}")
 
 
 
